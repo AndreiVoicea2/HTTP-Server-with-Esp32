@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Auto-refresh la fiecare 10 secunde -->
+  <meta http-equiv="refresh" content="10">
+  <title>Sensor: DHT11</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #f0f0f0; margin: 0; padding: 0; }
+    .container { margin: 50px auto; padding: 20px; background: white; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { color: #333; }
+    .sensor-data { font-size: 24px; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DHT11 Sensor Data</h1>
+    <div class="sensor-data">
+      <p>Temperature: {temperature} &deg;C</p>
+      <p>Humidity: {humidity} %</p>
+      <h2>Extra</h2>
+      <p>Dew Point: {dewPoint} &deg;C</p>
+      <p>Heat Index: {heatIndex} &deg;C</p>
+      <p>Absolute Humidity: {absoluteHumidity} g/m³</p>
+      <p>Saturation Vapor Pressure: {saturationVaporPressure} hPa</p>
+      <p>Humidex: {humidex} &deg;C</p>
+      <p>Wet Bulb: {wetBulb} &deg;C</p>
+    </div>
+  </div>
+</body>
+</html>
