@@ -1,0 +1,14 @@
+*
+!.gitignore
+!platformio.ini
+!src/
+!src/**
+!data/
+!data/**
+src/credentials.cpp
+src/credentials.h
+.pio/
+.vscode/
+test/
+lib/
+include/
