@@ -2,14 +2,16 @@
 !.gitignore
 !platformio.ini
 !include/
+!include/**
 !src/
 !src/**
 !data/
 !data/**
+!test/
+!test/**
 src/credentials.cpp
 include/credentials.h
 .pio/
 .vscode/
-!test/
 lib/
 
